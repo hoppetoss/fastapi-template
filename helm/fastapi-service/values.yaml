@@ -2,9 +2,12 @@ service:
   name: fastapi-template
   port: 8000
 
+#image:
+#  repository: fastapi-template
+#  tag: "latest"
+#  pullPolicy: IfNotPresent
 image:
-  repository: fastapi-template
+  repository: ghcr.io/hoppetoss/fastapi-template
   tag: "latest"
   pullPolicy: IfNotPresent
-
 replicaCount: 1
