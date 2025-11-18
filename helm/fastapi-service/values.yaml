@@ -1,0 +1,10 @@
+service:
+  name: fastapi-template
+  port: 8000
+
+image:
+  repository: fastapi-template
+  tag: "latest"
+  pullPolicy: IfNotPresent
+
+replicaCount: 1
